@@ -13,8 +13,8 @@ setup(
         get_file('README.rst') + '\n\n' + get_file('HISTORY.rst')
     ),
     author="Pekka Jäppinen",
-    author_email='',
-    url='https://github.com/Pegax/pyOnvif',
+    maintainer="Petri Savolainen",
+    url='https://github.com/koodaamo/pyOnvif',
     install_requires=[],
     extras_require={
         'discovery':  ["WSDiscovery"]
@@ -32,8 +32,6 @@ setup(
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)'
         'Natural Language :: English',
         "Programming Language :: Python :: 3",
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
